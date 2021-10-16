@@ -1,3 +1,5 @@
+
+const arena = document.querySelector('.arenas');
 const playerOne = {
     name: 'Subzero',
     hp: 50,
@@ -28,7 +30,6 @@ function createEl(el, className){
 }
 
 function createPlayer(player, playerClassName){
-    const arena = document.querySelector('.arenas');
     const player1 = createEl('div', playerClassName);
 
     const progressbar = createEl('div', 'progressbar');
